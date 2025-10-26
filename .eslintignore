@@ -1,0 +1,4 @@
+
+/coverage
+packages/graphql-input-schema/node_modules/*
+node_modules

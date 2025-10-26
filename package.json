@@ -1,0 +1,26 @@
+
+{
+  "name": "aws_utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/**/*"],
+  "dependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "jest": "^23.1.0",
+    "jest-runner-eslint": "^0.5.0",
+    "prettier": "^1.12.1"
+  },
+  "scripts": {
+    "test": "yarn jest --coverage --detectOpenHandles --forceExit",
+    "lint": "yarn eslint ."
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0"
+  }
+}
