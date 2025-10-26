@@ -24,6 +24,7 @@ Java version >= 8
 This mono repo runs all tests through jest (including eslint!) to run the tests you first need to start `docker-compose`
 
 
+
 ```sh
 yarn jest
 ```
